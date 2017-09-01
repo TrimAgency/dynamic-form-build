@@ -1,9 +1,6 @@
-# dynamic-form-build
-Angular dynamic form builder
+# Angular dynamic form builder
+A reactive form builder that auto creates a form based on a passed in config object.
 
-Import module into angular app to build forms using Reactive forms.
-Pass the dynamic-form component a config object with inputs including validation 
-and form will be auto built.  
-You can add you own custom input components, validators and change validation messages.
+## Installation
 
-More detailed readme to be completed.
+## Usage
