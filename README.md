@@ -57,13 +57,21 @@ export class SomeComponent {
 </dynamic-form>
 ```
 
-#### Pass the componet property to the config attribute of the dynamic form.
+#### Pass the componet property to the config attribute of the dynamic form:
 ```
-<dynamic-form [config]=config>
+<dynamic-form [config]="config">
    <h1>My Custom Form</h1>  // projected content
 </dynamic-form>
 ```
 
-#### Bind to the submitted event
+#### Bind an event handler that listens for the submitted event form the dynamic form:
+```
+<dynamic-form 
+   [config]="config"
+    // submitted is the event emitted
+    (submitted)="myHandlerFunction($event)"> 
+   <h1>My Custom Form</h1>  // projected content
+</dynamic-form>
+```
 
 
