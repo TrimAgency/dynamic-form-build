@@ -1,5 +1,5 @@
 # Angular dynamic form builder
-A reactive forms module that dynamicly creates inputs based on a config object.
+A reactive forms module that dynamically creates inputs based on a config object.
 
 ## Installation
 Copy entire module into your projects, src folder. In the feature module that 
@@ -24,7 +24,7 @@ export const formConfig = [
       {
         type: 'select',
         name: 'county',
-        options: [ { label: 'broward', value: 'broward' }, { label: 'maimi-dade', value: 'maimi-dade' } ],
+        options: [ { label: 'broward', value: 'broward' }, { label: 'miami-dade', value: 'miami-dade' } ],
         placeholder: 'Select a county',
         validators: [
           Validators.required
