@@ -25,7 +25,7 @@ export const formConfig = [
         type: 'select',
         name: 'county',
         value: null,
-        options: [ { label: 'broward', value: 'broward' }, { label: 'maimi-dade', value: 'maimi-dade' } ],
+        options: [ { label: 'broward', value: 'broward' }, { label: 'miami-dade', value: 'miami-dade' } ],
         placeholder: 'Select a county',
         validators: [
           Validators.required
