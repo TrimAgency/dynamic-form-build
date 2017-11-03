@@ -12,11 +12,6 @@ export interface Config {
     validators?: ValidatorFn[];
 }
 
-export interface FormSetup {
-    title: string;
-    inputs: Config[];
-}
-
 export interface Select {
     label: string;
     value: string;
