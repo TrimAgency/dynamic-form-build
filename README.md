@@ -24,6 +24,7 @@ export const formConfig = [
       {
         type: 'select',
         name: 'county',
+        value: null,
         options: [ { label: 'broward', value: 'broward' }, { label: 'maimi-dade', value: 'maimi-dade' } ],
         placeholder: 'Select a county',
         validators: [
@@ -38,6 +39,7 @@ export const formConfig = [
       }
     ];
 ```
+Note: Input type 'select', pass a value of null for placeholder to work.  This is a known issue with Angular 2.
 
 #### In your component class add a property that will hold your config object and assign your config object to this property.
 If you would like to add type checking to your property, import the Config interface from the models folder in the dynamic form builder module

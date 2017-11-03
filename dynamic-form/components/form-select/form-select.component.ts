@@ -14,7 +14,7 @@ import { validationMessages, errorMessages } from '../../models/validation-messa
          <label>{{ config.label }}</label>
          <select [formControlName]="config.name" 
                  [class.error-message]="errorArray.length > 0">
-            <option value="">{{ config.placeholder }}</option>
+            <option [ngValue]="null">{{ config.placeholder }}</option>
             <option *ngFor="let option of config.options" value="{{ option.value }}">
             {{ option.label }}
             </option>
