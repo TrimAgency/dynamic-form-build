@@ -1,5 +1,5 @@
 # Angular dynamic form builder
-A reactive forms module that dynamicly creates inputs based on a config object.
+A reactive forms module that dynamically creates inputs based on a config object.
 
 ## Installation
 Copy entire module into your projects, src folder. In the feature module that 
